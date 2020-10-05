@@ -5,7 +5,8 @@
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
   <pre><code>sudo docker-compose up -d</code></pre>
   <p>Tiếp đến, truy cập vào địa chỉ http://http://192.168.33.10:8080, để tận hưởng thành quả nào.</p>
-  <p>Ghi chú: </p>
+  <p><i><b>Ghi chú: </b></></p>
+  <p>Nếu Project của bạn gặp phải lỗi</p>
   <hr>
   <p>Bạn có thể tham khảo cách tạo Docker compose tại <a href="https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019" rel="nofollow">https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019</a></p>
 </article>
