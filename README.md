@@ -14,16 +14,12 @@
   <p>Tiếp theo, chạy lệnh sau để cài đặt các gói cần thiết:</p>
   <pre><code>apt install php-cli unzip</code></pre>
   <p>Tải xuống và cài đặt Composer</p>
-  <pre>
-    <code>
-      cd ~
-      curl -sS https://getcomposer.org/installer -o composer-setup.php
-   </code>
-  </pre>
+  <pre><code>cd ~</code></pre>
+  <pre><code>curl -sS https://getcomposer.org/installer -o composer-setup.php</code></pre>
   <p>Để tạo thuận lợi cho bước xác minh, bạn có thể sử dụng lệnh sau để lấy mã băm mới nhất theo chương trình từ trang Composer và lưu trữ nó trong một biến shell</p>
   <pre><code>HASH=`curl -sS https://composer.github.io/installer.sig`</code></pre>
   <p>Bây giờ hãy thực thi mã PHP sau, như được cung cấp trong trang tải xuống Trình soạn nhạc, để xác minh rằng tập lệnh cài đặt có an toàn để chạy:</p>
-  <pre><code>php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"</code></pre>>
+  <pre><code>php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"</code></pre>
   <p>Để cài composer globally , hãy sử dụng lệnh sau sẽ tải xuống và cài đặt Composer  dưới dạng system-wide  có tên là composer, trong / usr / local / bin:</p>
   <pre><code>php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 </code></pre>
