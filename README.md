@@ -2,7 +2,7 @@
   <h1>Ví dụ Docker compose cơ bản</h1>
   <p>Pull code</p>
   <pre><code>git clone https://github.com/minhducita/dockercompose.git</code></pre> 
-  <p>Sau khi Clone code về bạn vào thư mục chứa Docker Compose bằng lệnh sau</p>
+  <p>Sau khi Pull code về bạn vào thư mục chứa Docker Compose bằng lệnh sau</p>
   <pre><code>cd dockercompose</code></pre> 
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
   <pre><code>sudo docker-compose up -d</code></pre>
