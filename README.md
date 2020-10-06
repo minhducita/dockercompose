@@ -25,8 +25,9 @@
   <p>Để cài composer globally , hãy sử dụng lệnh sau sẽ tải xuống và cài đặt Composer  dưới dạng system-wide  có tên là composer, trong / usr / local / bin:</p>
   <pre><code>php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 </code></pre>
+<p><i>Tài liệu tham khảo cài đặt composer https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04</i></p>
   
-  <p>Thiết lập quyền lưu trữ cho storage</p>
+  <h2>Thiết lập quyền lưu trữ cho storage</h2>
   <pre><code>chown -R root:www-data storage/</code></pre>
   
   
