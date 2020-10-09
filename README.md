@@ -27,6 +27,10 @@
 </code></pre>
 <p><i>Tài liệu tham khảo cài đặt composer https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04</i></p>
   
+  
+  <h2>Tạo file .env từ file .env.example</h2>
+  <pre><code>cp .env.example .env/</code></pre>
+  
   <h2>Thiết lập quyền lưu trữ cho storage</h2>
   <pre><code>chown -R root:www-data storage/</code></pre>
   
