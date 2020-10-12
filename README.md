@@ -17,7 +17,10 @@
   
   
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
-  <pre><code>sudo docker-compose up -d</code></pre>
+  <pre><code>
+    cd ../
+    sudo docker-compose up -d
+  </code></pre>
   
   <p>ssh vào docker app</p>
   <pre><code>sudo docker-compose exec app bash</code></pre>
