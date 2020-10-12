@@ -48,10 +48,10 @@
 
 <p>Thiết lập quyền lưu trữ cho storage</p>
 <pre><code>chown -R root:www-data storage/</code></pre>
-<p> generate laravel key</p>
+<p>Tạo khóa laravel</p>
 <pre><code>php artisan key:generate</code></pre>
 
-<p>run migrate create database</p>
+<p>Tạo cơ sở dữ liệu</p>
 <pre><code>php artisan migrat</code></pre>
   
 <p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
