@@ -30,6 +30,13 @@
   
   <h2>Tạo file .env từ file .env.example</h2>
   <pre><code>cp .env.example .env/</code></pre>
+  <p>Change value params in .env:</p>
+  <pre>
+    <code>
+      DB_HOST=database
+      DB_PASSWORD=secret
+    </code>
+   </pre>
   
   <h2>Thiết lập quyền lưu trữ cho storage</h2>
   <pre><code>chown -R root:www-data storage/</code></pre>
