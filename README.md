@@ -46,12 +46,15 @@
   
   
 
+<p>Thiết lập quyền lưu trữ cho storage</p>
+<pre><code>chown -R root:www-data storage/</code></pre>
+<p> generate laravel key</p>
+<pre><code>php artisan key:generate</code></pre>
+
+<p>run migrate create database</p>
+<pre><code>php artisan migrat</code></pre>
   
-  <h2>Thiết lập quyền lưu trữ cho storage</h2>
-  <pre><code>chown -R root:www-data storage/</code></pre>
-  
-  
-  <p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
-  <hr>
-  <p>Bạn có thể tham khảo cách tạo Docker compose tại <a href="https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019" rel="nofollow">https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019</a></p>
+<p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
+<hr>
+<p>Bạn có thể tham khảo cách tạo Docker compose tại <a href="https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019" rel="nofollow">https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019</a></p>
 </article>
