@@ -54,7 +54,7 @@
 <pre><code>php artisan key:generate</code></pre>
 
 <p>Tạo cơ sở dữ liệu</p>
-<pre><code>php artisan migrat</code></pre>
+<pre><code>app php artisan migrate --seed</code></pre>
   
 <p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
 <hr>
