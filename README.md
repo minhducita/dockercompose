@@ -4,6 +4,15 @@
   <pre><code>git clone https://github.com/minhducita/dockercompose.git</code></pre> 
   <p>Sau khi Pull code về bạn vào thư mục chứa Docker Compose bằng lệnh sau</p>
   <pre><code>cd dockercompose</code></pre> 
+  <p>Tiếp theo tạo file .env từ file .env.example<p>
+  <pre><code>cp .env.example .env/</code></pre>
+  <p>Change value params in .env:</p>
+  <pre><code>
+    DB_HOST=database
+    DB_PASSWORD=secret
+  </code></pre>
+  
+  
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
   <pre><code>sudo docker-compose up -d</code></pre>
   
@@ -28,13 +37,7 @@
 <p><i>Tài liệu tham khảo cài đặt composer https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04</i></p>
   
   
-  <h2>Tạo file .env từ file .env.example</h2>
-  <pre><code>cp .env.example .env/</code></pre>
-  <p>Change value params in .env:</p>
-  <pre><code>
-    DB_HOST=database
-    DB_PASSWORD=secret
-  </code></pre>
+
   
   <h2>Thiết lập quyền lưu trữ cho storage</h2>
   <pre><code>chown -R root:www-data storage/</code></pre>
