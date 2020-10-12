@@ -12,7 +12,7 @@
   
   <h2>Tiến hành cài đặt composer</h2  
   <p>Trước tiên, hãy cập nhật bộ đệm ẩn của trình quản lý gói bằng cách chạy:</p>
-  <pre><code>apt update</code></pre>
+  <pre><code>apt-get update && apt-get install zip -y</code></pre>
   <p>Tiếp theo, chạy lệnh sau để cài đặt các gói cần thiết:</p>
   <pre><code>apt install php-cli unzip</code></pre>
   <p>Tải xuống và cài đặt Composer</p>
