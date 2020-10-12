@@ -6,7 +6,7 @@
   <pre><code>cd dockercompose</code></pre> 
   <p>Tiếp theo tạo file .env từ file .env.example<p>
   <pre><code>
-    cd /app
+    cd app
     cp .env.example .env/
   </code></pre>
   <p>Change value params in .env:</p>
