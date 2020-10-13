@@ -5,10 +5,7 @@
   <p>Sau khi Pull code về bạn vào thư mục chứa Docker Compose bằng lệnh sau</p>
   <pre><code>cd dockercompose</code></pre> 
   <p>Tiếp theo tạo file .env từ file .env.example<p>
-  <pre><code>
-  cd app
-  cp .env.example .env
-  </code></pre>
+  <pre><code> cp app/.env.example app/.env</code></pre>
   <p>Change value params in .env:</p>
   <pre><code>
   DB_HOST=database
