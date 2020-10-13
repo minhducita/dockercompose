@@ -25,13 +25,8 @@
   <p>ssh vào docker app</p>
   <pre><code>sudo docker-compose exec app bash</code></pre>
   
-  <p>Để cài composer globally , hãy sử dụng lệnh sau sẽ tải xuống và cài đặt Composer  dưới dạng system-wide  có tên là composer, trong / usr / local / bin:</p>
-  <pre><code>
-  php composer-setup.php --install-dir=/usr/local/bin --filename=composer
-  composer install
-</code></pre>
-<p><i>Tài liệu tham khảo cài đặt composer https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04</i></p>
-  
+  <p>Chạy composer để cài đặt các gói cần thiết trong dự án laravel</p>
+  <pre><code>composer install</code></pre> 
   
 
 <p>Thiết lập quyền lưu trữ cho storage</p>
