@@ -14,9 +14,7 @@
   
   
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
-  <pre><code>
-  sudo docker-compose up -d --build
-  </code></pre>
+  <pre><code>sudo docker-compose up -d --build</code></pre>
   
   <p>ssh vào docker app</p>
   <pre><code>sudo docker-compose exec app bash</code></pre>
@@ -25,15 +23,15 @@
   <pre><code>composer install</code></pre> 
   
 
-<p>Thiết lập quyền lưu trữ cho storage</p>
-<pre><code>chown -R root:www-data storage/</code></pre>
-<p>Tạo khóa laravel</p>
-<pre><code>php artisan key:generate</code></pre>
+  <p>Thiết lập quyền lưu trữ cho storage</p>
+  <pre><code>chown -R root:www-data storage/</code></pre>
+  <p>Tạo khóa laravel</p>
+  <pre><code>php artisan key:generate</code></pre>
 
-<p>Tạo cơ sở dữ liệu</p>
-<pre><code>php artisan migrate --seed</code></pre>
-  
-<p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
-<hr>
-<p>Bạn có thể tham khảo cách tạo Docker compose tại <a href="https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019" rel="nofollow">https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019</a></p>
+  <p>Tạo cơ sở dữ liệu</p>
+  <pre><code>php artisan migrate --seed</code></pre>
+
+  <p>Tiếp đến, truy cập vào địa chỉ http://http://0.0.0.0:8080, để tận hưởng thành quả nào.</p>
+  <hr>
+  <p>Bạn có thể tham khảo cách tạo Docker compose tại <a href="https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019" rel="nofollow">https://kipalog.com/posts/Cai-dat-moi-truong-Docker-cho-Laravel-2019</a></p>
 </article>
