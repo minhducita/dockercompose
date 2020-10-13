@@ -7,7 +7,7 @@
   <p>Tiếp theo tạo file .env từ file .env.example<p>
   <pre><code>
   cd app
-  cp .env.example .env/
+  cp .env.example .env
   </code></pre>
   <p>Change value params in .env:</p>
   <pre><code>
