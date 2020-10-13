@@ -15,7 +15,6 @@
   
   <p>Và chúng ta sẽ chạy lên thử với câu lệnh</p>
   <pre><code>
-  cd ../
   sudo docker-compose up -d --build
   </code></pre>
   
